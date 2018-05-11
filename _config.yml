@@ -10,5 +10,3 @@ github_username:  callmevincent
 
 # Build settings
 markdown: kramdown
-
-theme: jekyll-theme-cayman
