@@ -1,1 +1,12 @@
-callmevincent.github,io
+# Site settings
+title: 王言斌（Vincent）
+email: 18516570155@163.com
+description: > # this means to ignore newlines until "baseurl:"
+  Logic will get you from A to B. Imagination will take you everywhere.
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "https://callmevincent.github.io/" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  callmevincent
+
+# Build settings
+markdown: kramdown

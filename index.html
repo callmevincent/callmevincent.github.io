@@ -1,14 +1,15 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Vincent Wang github pages</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-</head>
-<body>
-    <h1></h1>
-    <p></p>
-<script type="text/javascript">
-</script>
-</body>
-</html>
+---
+layout: home
+---
+<div class="home">
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            {{ post.title }}
+            <div class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</div>
+          </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
